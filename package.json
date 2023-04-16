@@ -5,6 +5,10 @@
   "scripts": {
     "watch": "tailwindcss build -w -i src/styles.css -o assets/styles.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silvia-maier/causable"
+  },
   "author": "Silvia Maier (https://silviamaier.de/)",
   "devDependencies": {
     "tailwindcss": "^3.3.1"
