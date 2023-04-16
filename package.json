@@ -1,0 +1,12 @@
+{
+  "name": "causable",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "watch": "tailwindcss build -w -i src/styles.css -o assets/styles.css"
+  },
+  "author": "Silvia Maier (https://silviamaier.de/)",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}

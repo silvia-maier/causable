@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.callout {
+  @apply bg-primary text-white p-4 rounded shadow-md my-4;
+}
+
+/* Shrinking Header */
+.header-shrink {
+  @apply h-12;
+}
+
+/* Logo animation */
+.header-shrink .header-logo {
+  @apply w-[28px];
+}
+
+.header-logo svg:hover {
+  transform: rotate(360deg) scale(1.1);
+}
+
+.header-logo svg:not(:hover) {
+  transform: rotate(0deg) scale(1);
+  transition: transform 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
