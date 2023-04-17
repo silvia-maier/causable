@@ -18,7 +18,7 @@
 }
 
 .header-logo svg:hover {
-  transform: rotate(360deg) scale(1.1);
+  transform: rotate(-360deg) scale(1.1);
 }
 
 .header-logo svg:not(:hover) {

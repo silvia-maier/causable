@@ -44,7 +44,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -627,6 +627,10 @@ video {
   max-width: 48rem;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -701,12 +705,12 @@ video {
   padding-left: 1.25rem;
 }
 
-.font-sans {
-  font-family: Ubuntu, sans-serif;
-}
-
 .font-serif {
   font-family: Lora, serif;
+}
+
+.font-sans {
+  font-family: Roboto, sans-serif;
 }
 
 .text-4xl {
@@ -724,8 +728,25 @@ video {
   line-height: 1.75rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .leading-6 {
   line-height: 1.5rem;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
 }
 
 .text-primary {
@@ -792,7 +813,7 @@ video {
 }
 
 .header-logo svg:hover {
-  transform: rotate(360deg) scale(1.1);
+  transform: rotate(-360deg) scale(1.1);
 }
 
 .header-logo svg:not(:hover) {
