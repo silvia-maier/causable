@@ -2,26 +2,93 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Fonts */
+@font-face {
+  font-family: 'StabilGrotesk';
+  src: url('./fonts/StabilGrotesk-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/StabilGrotesk-Regular.woff') format('woff'); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'StabilGrotesk';
+  src: url('./fonts/StabilGrotesk-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/StabilGrotesk-Medium.woff') format('woff'); /* Modern Browsers */
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* CSS Variables */
+:root {
+  --color-white: #fffcfc;
+  --color-grey1: #ececec;
+  --color-grey4: #646464;
+  --color-black: #000000;
+  --color-primary1: #ccdff1;
+  --color-primary2: #005db9;
+  --color-primary3: #004a88;
+  --color-primary4: #0c3b5d;
+  --color-secondary1: #fcebf2;
+  --color-secondary2: #f7ccde;
+  --color-secondary3: #d50058;
+  --color-secondary4: #701d45;
+  --color-clay1: #f9f1ef;
+  --color-clay2: #e4bab4;
+  --color-clay3: #da928a;
+  --color-clay4: #c76d61;
+  --color-sage1: #becec3;
+  --color-sage2: #a7bdb4;
+  --color-sage3: #7d9c91;
+  --color-sage4: #163029;
+}
+
+/* Global style changes */
+
+::selection {
+  background-color: color-mix(in srgb, var(--color-clay3), transparent);
+}
+
+header, img {
+  user-select: none;
+}
+
 /* Custom styles */
-.callout {
-  @apply bg-primary text-white p-4 rounded shadow-md my-4;
+.header-backdrop {
+  backdrop-filter: blur(5px);
+}
+
+.container {
+  position: relative;
+}
+
+/* Utilities */
+.balanced {
+  text-wrap: balance;
 }
 
 /* Shrinking Header */
 .header-shrink {
-  @apply h-12;
+  @apply h-12 shadow-sm;
+
+}
+
+.linked-text {
+  text-decoration: underline;
+}
+
+/* Logo */
+
+/* Shrinking header */
+.header-shrink .header-logo {
+  width: 120px;
 }
 
 /* Logo animation */
-.header-shrink .header-logo {
-  @apply w-[28px];
-}
-
-.header-logo svg:hover {
+/* .header-logo svg:hover {
   transform: rotate(-360deg) scale(1.1);
 }
 
 .header-logo svg:not(:hover) {
   transform: rotate(0deg) scale(1);
   transition: transform 1s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
+} */
