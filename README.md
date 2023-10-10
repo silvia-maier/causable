@@ -1,13 +1,3 @@
 # Causable
 
-## Development
-
-Build the tailwind css file
-```bash
-npm run watch
-```
-
-Run a local webserver:
-```bash
-npx serve .
-```
+This is the source code for [causable.ch](https://causable.ch)

@@ -1,7 +1,7 @@
 {
     "name": "Causable",
-    "theme_color": "#c12c90",
-    "background_color": "#c12c90",
+    "theme_color": "#D50058",
+    "background_color": "#fffcfc",
     "display": "standalone",
     "icons": [
         {
