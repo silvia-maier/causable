@@ -1,67 +1,12 @@
+---
+title: "Causable - Training"
+description: "Causable supports innovation in business, science and society."
+---
 <!doctype html>
 <html lang="de">
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-
-      <title>Causable - Training</title>
-      <meta name="description" content="Causable supports innovation in business, science and society.">
-
-      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-      <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128x128.png">
-      <link rel="manifest" href="/manifest.json">
-      <meta name="theme-color" content="#fffcfc">
-
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" rel="stylesheet">
-
-      <link rel="stylesheet" href="/assets/styles.css?v=3">
-  </head>
-
+  {% include 'templates/_head.liquid' %}
   <body class="bg-white font-sans">
-    <header class="header-backdrop bg-opacity-80 bg-white fixed w-full h-20 z-10 transition-all duration-300">
-  <div id="mobile-menu" class="hidden fixed w-full bg-clay1">
-    <nav class="container mx-auto px-4 pt-24 pb-12">
-      <ul class="flex flex-col text-2xl space-y-4">
-        <li><a href="/index.html" class="text-black">home</a></li>
-        <!-- Other nav items are copied by js -->
-      </ul>
-    </nav>
-  </div>
-  <div class="container mx-auto px-4 h-full flex items-center justify-between">
-    <div class="w-[140px] mt-[3px]">
-      <a href="/">
-        <img src="assets/logo/causable_flat_black.svg" alt="Causable" class="header-logo w-full">
-      </a>
-    </div>
-    <nav id="menu" class="hidden lg:block">
-      <ul class="flex space-x-6 text-lg font-sans">
-        <li><a href="/strategy.html" class="text-black">strategy</a></li>
-        <li><a href="/sparring.html" class="text-black">sparring</a></li>
-        <li><a href="/training.html" class="text-black">training</a></li>
-        <li><a href="/about.html" class="text-black">about</a></li>
-      </ul>
-    </nav>
-    <div class="hidden">
-      <button class="navbar-burger flex items-center text-black p-3">
-        <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <title>Mobile menu</title>
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-        </svg>
-      </button>
-    </div>
-    <div class="lg:hidden">
-      <button class="js-menu-btn tham tham-e-squeeze tham-w-5 p-5">
-        <div class="tham-box">
-          <div class="tham-inner"></div>
-        </div>
-      </button>
-    </div>
-  </div>
-</header>
-
+    {% include 'templates/_header.liquid' %}
 
     <div class="h-20"></div>
 
@@ -343,55 +288,7 @@
 
     </main>
 
-    <footer class="bg-sage4 text-white py-10">
-  <div class="container mx-auto px-4 max-w-3xl py-10">
-    <div class="grid grid-cols-3 gap-8">
-      <div>
-        <h3 class="text-l mb-4 text-slate-100">Get in touch</h3>
-        <div class=" text-slate-300 pb-1">
-          <span
-            class="eml"
-            data-x="silvia.maier"
-            data-y="causable.ch"
-          >
-         </span>
-        </div>
-        <ul class="-ml-1 text-slate-400 select-none">
-          <li>
-              <a class="text-primary" href="https://www.linkedin.com/company/causable-world/">
-                <svg class="inline" style="width:24px;height:24px" viewBox="0 0 24 24">
-                  <path fill="currentColor" d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z" />
-                </svg>
-              </a>
-              <a class="text-primary" href="https://twitter.com/Silvia_U_Maier">
-                <svg class="inline" style="width:24px;height:24px" viewBox="0 0 24 24">
-                  <path fill="currentColor" d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z" />
-                </svg>
-              </a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-l mb-4"></h3>
-        <ul class="space-y-2 text-slate-400">
-          <li><a href="#"></a></li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-l mb-4"></h3>
-        <ul class=" text-slate-300">
-          <li>Causable GmbH</li>
-          <li>Tellstrasse 31</li>
-          <li>8004 Zürich</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="container mx-auto px-4 max-w-3xl text-center text-slate-500 select-none">
-    © 2023 Causable GmbH | Design by Eva van Jensen
-  </div>
-</footer>
-
+    {% include 'templates/_footer.liquid' %}
 
     <script src="/assets/js/index.js"></script>
   </body>

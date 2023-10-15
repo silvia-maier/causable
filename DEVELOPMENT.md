@@ -2,7 +2,12 @@
 
 ## Development
 
-Build the tailwind css file
+Build the html files
+```bash
+npm run build
+```
+
+Build all html files and the tailwind css file
 ```bash
 npm run watch
 ```

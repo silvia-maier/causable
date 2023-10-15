@@ -1752,10 +1752,6 @@ video {
   left: -800px;
 }
 
-.-right-\[200px\] {
-  right: -200px;
-}
-
 .-top-\[200px\] {
   top: -200px;
 }
@@ -1937,20 +1933,12 @@ video {
   width: 600px;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-\[110px\] {
-  width: 110px;
-}
-
-.w-\[8px\] {
-  width: 8px;
-}
-
 .w-\[80px\] {
   width: 80px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .min-w-\[400px\] {
@@ -2070,28 +2058,18 @@ video {
   gap: 3.5rem;
 }
 
-.gap-16 {
-  gap: 4rem;
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .gap-8 {
   gap: 2rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-y-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2208,11 +2186,6 @@ video {
   padding: 1.25rem;
 }
 
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -2238,6 +2211,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -2251,16 +2229,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pb-1 {
@@ -2299,6 +2267,10 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.pb-36 {
+  padding-bottom: 9rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -2309,6 +2281,10 @@ video {
 
 .pl-1 {
   padding-left: 0.25rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .pt-10 {
@@ -2327,10 +2303,6 @@ video {
   padding-top: 0.5rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
-}
-
 .pt-24 {
   padding-top: 6rem;
 }
@@ -2341,18 +2313,6 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
-}
-
-.pb-36 {
-  padding-bottom: 9rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
 }
 
 .text-left {
@@ -2634,10 +2594,6 @@ header, img {
 }
 
 @media (min-width: 768px) {
-  .md\:-right-\[100px\] {
-    right: -100px;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -2683,11 +2639,6 @@ header, img {
 
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
   }
 }
 
