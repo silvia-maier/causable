@@ -27,7 +27,9 @@ module.exports = {
         'sage1': '#BECEC3',
         'sage2': '#A7BDB4',
         'sage3': '#7D9C91',
-        'sage4': '#163029'
+        'sage4': '#163029',
+        'autumn1': '#F6E2D3'
+
       },
       textColor: {
         'primary3': '#004A88',

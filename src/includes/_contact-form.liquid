@@ -1,0 +1,94 @@
+<form
+  action="https://formspree.io/f/xjvqjbjg"
+  method="POST"
+  class="px-4 md:px-8 pt-12 mb-4"
+>
+  <div class="mb-4">
+    <label
+      for="email"
+      class="block text-gray-700 mb-2"
+    >
+      Your email*
+    </label>
+    <input
+      type="email"
+      name="email"
+      required
+      class="p-2 w-full max-w-[400px] focus:outline-secondary3 outline-offset-3"
+    >
+    <p class="text-xs text-gray-600 pt-2">
+      * Required
+    </p>
+  </div>
+  <div class="mb-6">
+    <p class="balanced text-xl block text-gray-700 mb-2">
+      I am interested in
+    </p>
+
+    <div>
+      <input
+        {% if checked == "strategy" %}checked {% endif -%}
+        class="focus:outline-secondary3"
+        type="checkbox"
+        name="strategy"
+        id="strategy"
+        value="strategy"
+      >
+      <label class="pl-1 cursor-pointer" for="strategy">Strategy</label>
+    </div>
+
+    <div>
+      <input
+        {% if checked == "sparring" %}checked {% endif -%}
+        class="focus:outline-secondary3"
+        type="checkbox"
+        name="sparring"
+        id="sparring"
+        value="sparring"
+      >
+      <label class="pl-1 cursor-pointer" for="sparring">Sparring</label>
+    </div>
+
+    <div>
+      <input
+        {% if checked == "training" %}checked {% endif -%}
+        class="focus:outline-secondary3"
+        type="checkbox"
+        name="training"
+        id="training"
+        value="training"
+      >
+      <label class="pl-1 cursor-pointer" for="training">Training</label>
+    </div>
+
+  </div>
+  <div class="mb-6">
+    <label
+      for="message"
+      class="balanced text-xl block text-gray-700 mb-2"
+    >
+      Anything in particular you would like to talk about?
+    </label>
+    <textarea
+      name="message"
+      rows="3"
+      class="p-2 w-full max-w-[400px] focus:outline-secondary3"
+    ></textarea>
+  </div>
+  <div class="flex items-center justify-between">
+    <button
+      type="submit"
+      class="py-2 px-4 font-bold bg-secondary3  hover:bg-secondary4 text-white rounded focus:outline-black"
+    >Send</button>
+    <div>
+      <p class="balanced text-ld max-w-xs text-gray-600">
+        <em>Once you hit send we'll be in touch shortly.</em>
+      </p>
+    </div>
+  </div>
+  <div>
+    <p class="pt-10 pb-2 text-xs text-gray-600">
+      Your data will be used only to contact you. Nothing else.
+    </p>
+  </div>
+</form>
