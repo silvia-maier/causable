@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener('DOMContentLoaded', function () {
 
   // Burger Menu
   // -----------
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // ----------------
   const header = document.querySelector('header')
 
-  let lastScrollY = 0;
+  let lastScrollY = 0
   window.addEventListener('scroll', () => {
     const currentScrollY = window.scrollY
     if (currentScrollY > lastScrollY) {
@@ -85,14 +85,13 @@ document.addEventListener("DOMContentLoaded", function() {
   const elem = document.querySelector('.eml')
   const name = elem.getAttribute('data-x')
   const host = elem.getAttribute('data-y')
-  const mail = name + '@' + host
+  const mail = `${name}@${host}`
 
   const link = document.createElement('a')
-  link.setAttribute('href', 'mailto:' + mail)
+  link.setAttribute('href', `mailto:${mail}`)
   link.textContent = mail
 
   elem.parentElement.replaceChild(link, elem)
 })
-
 
 

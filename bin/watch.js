@@ -1,5 +1,5 @@
 const chokidar = require('chokidar')
-const { compile, rootFolder } = require('./lib/compile')
+const {compile, rootFolder} = require('./lib/compile')
 
 // Watch on all Liquid templates
 const watcher = chokidar.watch(`${rootFolder}/**/*.liquid`)

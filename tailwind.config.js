@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html", "./**/*.html"],
+  content: ['./*.html', './**/*.html'],
   theme: {
     extend: {
       colors: {
@@ -39,13 +39,13 @@ module.exports = {
       },
       fontFamily: {
         'serif': ['Crimson Pro', 'serif'],
-        'sans': ['StabilGrotesk', 'Roboto', 'sans-serif'],
+        'sans': ['StabilGrotesk', 'Roboto', 'sans-serif']
       },
       rotate: {
         '-25': '-25deg',
         '-30': '-30deg'
-       }
-    },
+      }
+    }
   },
   plugins: [require('tailwind-hamburgers')]
 }
