@@ -20,13 +20,37 @@
   </url>
   <url>
     <loc>https://causable.ch/training.html</loc>
-    <lastmod>2023-11-05</lastmod>
+    <lastmod>2023-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://causable.ch/facilitation-tools.html</loc>
     <lastmod>2023-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://causable.ch/leading-remote-teams.html</loc>
+    <lastmod>2023-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://causable.ch/cross-functional-leadership.html</loc>
+    <lastmod>2023-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://causable.ch/self-leadership-essentials.html</loc>
+    <lastmod>2023-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://causable.ch/targeted-communication.html</loc>
+    <lastmod>2023-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
