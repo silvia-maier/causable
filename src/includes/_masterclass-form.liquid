@@ -1,0 +1,281 @@
+<form
+  action="https://formspree.io/f/xjvqjbjg"
+  method="POST"
+  class="pt-4 mb-4"
+>
+  <div class="mb-6">
+    <p class="balanced text-xl block mb-2">
+      Choose the date for your masterclass
+    </p>
+
+    <div class="grid grid-cols-[20px_minmax(0,_1fr)] gap-1">
+      <input
+        class="focus:outline-secondary3"
+        type="radio"
+        name="course-date"
+        id="course-date-wednesday"
+        value="Wednesday 10.01.2024"
+      >
+      <label class="pl-1 cursor-pointer" for="course-date-wednesday">
+        Wednesday, January 10, 2024 from 13.30 - 16.00 (250 EUR)
+      </label>
+      <input
+        class="focus:outline-secondary3"
+        type="radio"
+        name="course-date"
+        id="course-date-thursday"
+        value="Thursday 11.01.2024"
+      >
+      <label class="pl-1 cursor-pointer" for="course-date-thursday">
+        Thursday, January 11, 2024 from 16.30 - 18.00 (250 EUR)
+      </label>
+      <input
+        class="focus:outline-secondary3"
+        type="radio"
+        name="course-date"
+        id="course-date-nope"
+        value="No masterclass"
+      >
+      <label class="pl-1 cursor-pointer" for="course-date-nope">
+        I can't attend the masterclass
+      </label>
+    </div>
+
+  </div>
+  <div class="mb-6">
+    <p class="balanced text-xl block  mb-2">
+      Booster sessions
+    </p>
+    <div class="pb-4 grid grid-cols-[20px_minmax(0,_1fr)] gap-1">
+      <input
+        class="focus:outline-secondary3"
+        type="radio"
+        name="boosters"
+        id="boosters-all"
+        value="all boosters"
+        onclick="document.querySelectorAll('.js-booster-check').forEach(el => el.checked = true);"
+      >
+      <label class="pl-1 cursor-pointer" for="boosters-all">
+        Package: all booster sessions - available if you book the masterclass
+        (350 EUR - early bird price for the first 10 bookings)
+      </label>
+      <input
+        class="focus:outline-secondary3"
+        type="radio"
+        name="boosters"
+        id="boosters-select"
+        value="select some boosters"
+      >
+      <label class="pl-1 cursor-pointer" for="boosters-select">
+        I want to select my booster sessions (150 EUR each)
+      </label>
+    </div>
+    <p class="text-base">
+      <em>Each booster session is offered at two different times.
+      You will be able to pick the time that suits you best.</em>
+    </p>
+  </div>
+
+  <div class="mb-6 grid grid-cols-[20px_minmax(0,_1fr)] gap-1">
+    <div>
+      <input
+        class="js-booster-check focus:outline-secondary3"
+        type="checkbox"
+        name="booster-1"
+        id="booster-1"
+        value="booster-1"
+        onclick="document.querySelector('#boosters-select').checked = true;"
+      >
+    </div>
+    <label class="pb-4 cursor-pointer" for="booster-1">
+      <h5 class="text-base">
+        Booster 1
+      </h5>
+      <h4 class="text-xl">
+        Resilience – Stop emotional drain and gain new perspectives
+      </h4>
+      <ul class="text-lg pl-2">
+        <li>
+          Wednesday, March 6, 2024, from 13.30-15.00 CET, or
+        </li>
+        <li>
+          Thursday, March 7, 2024, from 15.30-17.00 CET
+        </li>
+      </ul>
+    </label>
+    <div>
+      <input
+        class="js-booster-check focus:outline-secondary3"
+        type="checkbox"
+        name="booster-2"
+        id="booster-2"
+        value="booster-2"
+        onclick="document.querySelector('#boosters-select').checked = true;"
+      >
+    </div>
+    <label class="pb-4 cursor-pointer" for="booster-2">
+      <h5 class="text-base">
+        Booster 2
+      </h5>
+      <h4 class="text-xl">
+        Work intentionally and build good habits
+      </h4>
+      <ul class="text-lg pl-2">
+        <li>
+          Wednesday, June 5, 2024, from 13.30-15.00 CET, or
+        </li>
+        <li>
+          Thursday, June 6, 2024, from 15.30-17.00 CET
+        </li>
+      </ul>
+    </label>
+    <div>
+      <input
+        class="js-booster-check focus:outline-secondary3"
+        type="checkbox"
+        name="booster-3"
+        id="booster-3"
+        value="booster-3"
+        onclick="document.querySelector('#boosters-select').checked = true;"
+      >
+    </div>
+    <label class="pb-4 cursor-pointer" for="booster-3">
+      <h5 class="text-base">
+        Booster 3
+      </h5>
+      <h4 class="text-xl">
+        Make tough decisions and say “No” clearly and gently
+      </h4>
+      <ul class="text-lg pl-2">
+        <li>
+          Wednesday, September 4, 2024, from 13.30-15.00 CET, or
+        </li>
+        <li>
+          Thursday, September 5, 2024, from 15.30-17.00 CET
+        </li>
+      </ul>
+    </label>
+    <div>
+      <input
+        class="js-booster-check focus:outline-secondary3 text-2xl"
+        type="checkbox"
+        name="booster-4"
+        id="booster-4"
+        value="booster-4"
+        onclick="document.querySelector('#boosters-select').checked = true;"
+      >
+    </div>
+    <label class="pb-4 cursor-pointer" for="booster-4">
+      <h5 class="text-base">
+        Booster 4
+      </h5>
+      <h4 class="text-xl">
+        Build on your strengths and working genius
+      </h4>
+      <ul class="text-lg pl-2">
+        <li>
+          Wednesday, December 4, 2024, from 13.30-15.00 CET, or
+        </li>
+        <li>
+          Thursday, December 5, 2024, from 15.30-17.00 CET
+        </li>
+      </ul>
+    </label>
+  </div>
+
+  <div class="mb-4">
+    <label
+      for="email"
+      class="block mb-2"
+    >
+      Your email*
+    </label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      required
+      class="p-2 w-full max-w-[400px] focus:outline-secondary3 outline-offset-3"
+    >
+    <p class="text-xs text-gray-600 pt-2">
+      * Required
+    </p>
+  </div>
+  <div class="mb-4">
+    <label
+      for="full-name"
+      class="block mb-2"
+    >
+      Full Name*
+    </label>
+    <input
+      type="text"
+      id="full-name"
+      name="full-name"
+      required
+      class="p-2 w-full max-w-[400px] focus:outline-secondary3 outline-offset-3"
+    >
+    <p class="text-xs text-gray-600 pt-2">
+      * Required
+    </p>
+  </div>
+  <div class="mb-4">
+    <label
+      for="address"
+      class="block mb-2"
+    >
+      Address*
+    </label>
+    <textarea
+      id="address"
+      name="address"
+      rows="5"
+      required
+      class="p-2 w-full max-w-[400px] focus:outline-secondary3 outline-offset-3"
+    ></textarea>
+    <p class="text-xs text-gray-600 pt-2">
+      * Required
+    </p>
+  </div>
+  <div class="mb-4">
+    <p class="text-base text-gray-600 mt-8 mb-2 balanced">
+      To help us prepare and tailor our course to you, we’d also like to know your job title and where you work.
+    </p>
+    <label
+      for="job-title"
+      class="block mb-2"
+    >
+      Job Title
+    </label>
+    <input
+      type="text"
+      id="job-title"
+      name="job-title"
+      required
+      class="p-2 w-full max-w-[400px] focus:outline-secondary3 outline-offset-3"
+    >
+  </div>
+  <div class="mb-6">
+    <label
+      for="organisation"
+      class="block mb-2"
+    >
+      Organisation
+    </label>
+    <input
+      type="text"
+      id="organisation"
+      name="organisation"
+      required
+      class="p-2 w-full max-w-[400px] focus:outline-secondary3 outline-offset-3"
+    >
+  </div>
+  <div class="flex items-center justify-between">
+    <button
+      type="submit"
+      class="py-2 px-4 font-bold bg-secondary3  hover:bg-secondary4 text-white rounded focus:outline-black"
+    >
+      Book
+    </button>
+  </div>
+</form>

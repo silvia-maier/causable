@@ -2,7 +2,7 @@ const fs = require('fs-extra')
 const {Liquid} = require('liquidjs')
 const grayMatter = require('gray-matter')
 
-const assetVersion = 3
+const assetVersion = 4
 const rootFolder = `${process.cwd()}/src`
 
 // Liquid Engine
