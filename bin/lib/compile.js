@@ -2,7 +2,7 @@ const fs = require('fs-extra')
 const {Liquid} = require('liquidjs')
 const grayMatter = require('gray-matter')
 
-const assetVersion = 4
+const assetVersion = 5
 const rootFolder = `${process.cwd()}/src`
 
 // Liquid Engine
@@ -21,12 +21,12 @@ const render = {
 module.exports = {
   rootFolder,
 
-  async compile () {
+  async compile() {
     // Get all .liquid files from the src folder
     // Note: fs.readdir returns multiple times when files are being written
     // -> to be investigated...
     const files = await fs.readdir(rootFolder)
-    const liquidFiles = files.filter(file => file.endsWith('.liquid'))
+    const liquidFiles = files.filter((file) => file.endsWith('.liquid'))
 
     // Render each .liquid file
     for (const file of liquidFiles) {
@@ -35,7 +35,7 @@ module.exports = {
   }
 }
 
-async function renderTemplate (fileName, globalData) {
+async function renderTemplate(fileName, globalData) {
   const template = await fs.readFile(`src/${fileName}.liquid`)
   const {content, data} = grayMatter(template)
   const frontMatter = data
