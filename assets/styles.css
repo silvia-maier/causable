@@ -1764,14 +1764,6 @@ video {
   z-index: 10;
 }
 
-.z-0 {
-  z-index: 0;
-}
-
-.z-20 {
-  z-index: 20;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1779,6 +1771,10 @@ video {
 
 .-mb-10 {
   margin-bottom: -2.5rem;
+}
+
+.-mb-20 {
+  margin-bottom: -5rem;
 }
 
 .-mb-\[20px\] {
@@ -1791,6 +1787,10 @@ video {
 
 .-mt-10 {
   margin-top: -2.5rem;
+}
+
+.-mt-14 {
+  margin-top: -3.5rem;
 }
 
 .-mt-\[30px\] {
@@ -1861,38 +1861,6 @@ video {
   margin-top: 3px;
 }
 
-.-mb-32 {
-  margin-bottom: -8rem;
-}
-
-.-mb-14 {
-  margin-bottom: -3.5rem;
-}
-
-.-mb-20 {
-  margin-bottom: -5rem;
-}
-
-.-mt-20 {
-  margin-top: -5rem;
-}
-
-.-mt-1 {
-  margin-top: -0.25rem;
-}
-
-.-mt-8 {
-  margin-top: -2rem;
-}
-
-.-mt-12 {
-  margin-top: -3rem;
-}
-
-.-mt-14 {
-  margin-top: -3.5rem;
-}
-
 .block {
   display: block;
 }
@@ -1929,8 +1897,8 @@ video {
   height: 1200px;
 }
 
-.h-\[120px\] {
-  height: 120px;
+.h-\[180px\] {
+  height: 180px;
 }
 
 .h-\[200px\] {
@@ -1943,14 +1911,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[150px\] {
-  height: 150px;
-}
-
-.h-\[180px\] {
-  height: 180px;
 }
 
 .min-h-screen {
@@ -2085,18 +2045,13 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.rotate-1 {
-  --tw-rotate: 1deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.rotate-6 {
-  --tw-rotate: 6deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .-rotate-6 {
   --tw-rotate: -6deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-1 {
+  --tw-rotate: 1deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2197,12 +2152,6 @@ video {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
-.space-y-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
-}
-
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -2271,11 +2220,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 252 252 / var(--tw-bg-opacity));
-}
-
-.bg-clay2 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(228 186 180 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-80 {
@@ -2607,16 +2551,16 @@ video {
   opacity: 0.05;
 }
 
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-all {
+  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -2783,10 +2727,6 @@ header, img {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
   .md\:flex-row-reverse {
     flex-direction: row-reverse;
   }
@@ -2823,16 +2763,8 @@ header, img {
     display: block;
   }
 
-  .lg\:flex {
-    display: flex;
-  }
-
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:flex-row {
-    flex-direction: row;
   }
 }
 
