@@ -1,15 +1,18 @@
 const chokidar = require('chokidar')
 const {compile, rootFolder} = require('./lib/compile')
 
-// Watch on all Liquid templates
-const watcher = chokidar.watch(`${rootFolder}/**/*.liquid`)
+console.log('Watching for changes...')
 
-watcher.on('change', (path, stats) => {
+const watcher = chokidar.watch(`${rootFolder}/**/*.liquid`, {
+  ignoreInitial: true
+})
+
+watcher.on('change', (path) => {
   console.log(`File ${path} was changed`)
   compile()
 })
 
-watcher.on('add', (path, stats) => {
+watcher.on('add', (path) => {
   console.log(`File ${path} was added`)
   compile()
 })

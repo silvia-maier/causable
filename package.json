@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "node bin/compile.js && tailwindcss build -i src/styles.css -o assets/styles.css",
-    "watch": "concurrently \"node bin/watch.js\" \"tailwindcss build -w -i src/styles.css -o assets/styles.css\"",
+    "build": "node bin/compile.js && tailwindcss build -i src/styles.css -o dist/assets/styles.css",
+    "watch": "node bin/compile.js && concurrently \"node bin/watch.js\" \"tailwindcss build -w -i src/styles.css -o dist/assets/styles.css\"",
+    "dev": "npm run build && concurrently \"node bin/watch.js\" \"tailwindcss build -w -i src/styles.css -o dist/assets/styles.css\" \"browser-sync start --config bs-config.js\"",
     "lint": "eslint ."
   },
   "repository": {
@@ -13,6 +14,7 @@
   },
   "author": "Silvia Maier (https://silviamaier.de/)",
   "devDependencies": {
+    "browser-sync": "^3.0.4",
     "eslint": "^8.53.0",
     "tailwindcss": "^3.3.1"
   },

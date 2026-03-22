@@ -1,3 +1,3 @@
-const {compile} = require('./lib/compile')
+const {build} = require('./lib/compile')
 
-compile()
+build()

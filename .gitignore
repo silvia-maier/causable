@@ -1,0 +1,7 @@
+node_modules/
+dist/
+
+# Generated files (now built by CI)
+/*.html
+/sitemap.xml
+/assets/styles.css
