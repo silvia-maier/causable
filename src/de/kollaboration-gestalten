@@ -1,0 +1,180 @@
+---
+title: Causable Training - Collaboration design
+description: Facilitation tools for leadership and collaboration
+lang: de
+key: collaboration-design
+---
+<!doctype html>
+<html lang="{{ page.lang }}">
+  {% include 'templates/_head.liquid' %}
+  <body class="bg-white font-sans">
+    {% include 'templates/_header.liquid' %}
+
+    <div class="h-20"></div>
+
+    <main class="min-h-screen">
+
+      <section>
+        <div class="mx-auto w-[100px] py-12">
+          <img
+            class="w-full"
+            src="/assets/icons/icon_question_mark.svg"
+            width="130px"
+            height="201px"
+          >
+        </div>
+      </section>
+
+      <section class="container mx-auto px-4 max-w-3xl pb-8">
+        <h1 class="text-4xl font-serif">
+          Kollaboration gestalten in Innovation und Transformation
+        </h1>
+      </section>
+
+      <section class="container mx-auto px-4 max-w-3xl pb-14">
+        <h2 class="text-3xl font-serif pb-4">
+          Wieso ist es wichtig, einen guten Rahmen für die Zusammenarbeit zu schaffen?
+        </h2>
+        <p class="pb-2 text-lg max-w-xl">
+          Kennt Ihr diese Meetings, in denen nichts vorwärts geht? Mit unvorbereiteten Teilnehmenden, die sich fragen, warum sie eigentlich hier sitzen, wo sie doch sinnvollere Arbeit zu tun hätten? 
+          Deutlich verschärfen kann sich diese Situation wenn alle dazu noch verschiedene Hintergründe haben. Hier könnt Ihr vorbeugen und Euren Projekten einen guten Rahmen geben.
+          Arbeitet Ihr an einem interdisziplinären Projekt in Forschung & Entwicklung? Seid Ihr dabei, neue Lösungen, Produkte oder Geschäftsmodelle auf den Markt zu bringen? Steckt Eure Organisation in einer Transformation? 
+        </p>
+        <p class="pb-2 text-lg max-w-xl">
+         In solchen Situationen lässt sich in Meetings immer wieder beobachten: Trotz allseits guter Ideen und Absichten arbeiten in Eurem Team oder Eurer Organisation Leute 
+          aus verschiedenen Bereichen aneinander vorbei. Andere beteiligen sich nicht, oder sie kommen nicht zu Wort. Diskussionen verlieren sich in Details. Richtung und Ziel bleiben unklar. 
+          Kurz gesagt: Man findet sich nicht. Die Abstimmung wird mühsam, Meetings verlaufen zäh und Euer Projekt kommt nicht voran. So kann es nicht weitergehen. 
+        </p>
+        <p class="pb-2 text-lg max-w-xl">
+          Wie kommt Ihr miteinander ans Ziel, und was könnt Ihr selbst dazu beitragen, auch wenn ihr keine formale Führungsrolle innehabt? 
+          Das erarbeiten wir gestützt auf aktuelle Erkenntnisse aus der Führung von Innovationsteams, Psychologie und Neuroökonomik zusammen in diesem interaktiven Training. 
+          Und wenden es sofort an: anhand von praktischen Beispielen aus Eurem Alltag kommt Ihr direkt ins Tun.
+        </p>
+
+         <h2 class="text-3xl font-serif pb-4">
+          Für wen ist das Training?
+         </h2>
+
+        <p class="pb-2 text-lg max-w-xl">
+          zum Beispiel Projektleitende, Fachverantwortliche in cross-funktionalen Teams, Führungskräfte in der bereichsübergreifenden Zusammenarbeit, Scrum Master / Agile Master
+        </p>
+
+        <h2 class="text-3xl font-serif pb-4">
+          Was gewinnt Ihr dadurch?
+        </h2>
+
+        <p class="pb-2 text-lg max-w-xl">
+          > Ihr lernt Räume und Dialoge so zu strukturieren, dass Ihr verschiedene Denkwelten ausleuchtet und zusammenführt, und Eure Stakeholder darin unterstützen könnt, 
+          ein gemeinsames Bild der Lage und produktive Lösungsansätze zu entwickeln, die tragen.
+        </p>
+
+        <p class="pb-2 text-lg max-w-xl">
+          > Ihr lernt den Dialog auf Augenhöhe zu gestalten, andere dabei motivierend einzubinden, die Perspektiven von Partnern und Stakeholdern zu integrieren 
+          und bereichsübergreifend zu kommunizieren.
+        </p>
+        
+        <p class="pb-2 text-lg max-w-xl">
+          > Ihr lernt damit die interdisziplinäre Zusammenarbeit zu stärken, cross-funktionale Kollaboration zu fördern und Eurer Gruppe dabei zu helfen, 
+          neue Ideen zu entwickeln und sich gegenseitig unter die Arme zu greifen und Probleme zu lösen, wenn Euer Projekt ins Stocken gerät. 
+        </p>
+        
+      </section>
+
+      <div class="bg-autumn1 rotate-1 h-[100px] -mb-10"></div>
+      <div class="bg-autumn1">
+
+        <section class="container mx-auto px-4 max-w-3xl pt-4">
+          <div class="flex flex-row gap-6 md:gap-16">
+            <div class="flex-1">
+              <h3 class="pb-3 text-xl">
+                Module
+              </h3>
+              <div class="mb-5 grid grid-cols-[20px_minmax(0,_1fr)] gap-1">
+                <div class="text-lg">1</div>
+                <p class="pb-2 text-lg max-w-lg">
+                  Cross-funktionale Perspektiven erkunden und Denkwelten zusammenführen
+                </p>
+                <div class="text-lg">2</div>
+                <p class="pb-2 text-lg max-w-lg">
+                  Mit Stakeholdern partnerschaftlich auf Augenhöhe zusammenarbeiten
+                </p>
+                <div class="text-lg">3</div>
+                <p class="pb-2 text-base max-w-lg">
+                  Ein übergreifendes, gemeinsames Bild entwickeln
+                </p>
+                <div class="text-lg">4</div>
+                <p class="pb-2 text-lg max-w-lg">
+                  Troubleshooting von Stakeholder-Arbeit und Kollaboration
+                </p>
+              </div>
+
+              <h3 class="pb-2 text-xl">
+                Format
+              </h3>
+              <p class="pb-5 text-lg max-w-lg">
+                Jedes Modul entspricht einem halben Kurstag. Die Module finden online oder in Präsenz statt. Sie können einzeln als Halbtage oder innerhalb von 2 ganzen Tagen gebucht werden.  <br>  
+                
+                online oder bei Euch vor Ort
+              </p>
+
+              <h3 class="pb-2 text-xl">
+                Teilnehmende
+              </h3>
+              <p class="pb-5 text-lg max-w-lg">
+                Dieses Training baut auf Gruppenarbeit und praktischen Erprobungen auf. Mindestens 3, höchstens 20 Teilnehmende, 
+                idealerweise mit unterschiedlichen Ausbildungshintergründen und beruflichen Funktionen. 
+              </p>
+
+              <h3 class="pb-2 text-xl">
+                Upgrade
+              </h3>
+              <p class="pb-5 text-lg max-w-lg">
+                Nach Vereinbarung lässt sich dieses Training erweitern: Zwischen den Kurstagen können zusätzlich individuelle Coachings bzw. Workshops mit dem Team gebucht werden, 
+                bei denen die Teilnehmenden ihre Lösungsansätze für aktuelle Herausforderungen reflektieren und schärfen können. 
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="js-contact container mx-auto px-4 max-w-3xl pb-24">
+          <div
+            class="max-w-xl rounded-3xl py-4"
+          >
+            <div class="js-contact-btn cursor-pointer">
+              <h3 class="text-2xl pb-3">
+                Interessiert?
+              </h3>
+              <p class="text-secondary3 underline">
+                Meldet Euch hier für ein unverbindliches Vorgespräch.
+              </p>
+
+            
+
+            </div>
+            <div class="js-contact-form hidden mt-4 text-left text-xl bg-clay1 rounded-2xl">
+              {% include 'includes/_contact-form.liquid' checked: 'training' %}
+            </div>
+
+
+            <p class="pb-5 text-lg max-w-lg">
+                 Für eine engere Begleitung und gezielte Fortbildung von Schlüsselpersonen oder cross-funktionalen Teams über einen längeren Projektzeitraum hinweg schaut Euch gern auch unser Format des 
+              LINK! Wertschöpfungszirkels an.  
+              </p>
+
+            <p class="pb-5 text-lg max-w-lg">
+              Hapert es schon beim Start? Wenn Ihr Verantwortung dafür tragt, ein cross-funktionales Team für ein strategisches Projekt neu aufzusetzen, dann ist vielleicht auch unser 
+              LINK! Cross-funktionales Bootcamp für Euch hilfreich.
+            </p>  
+             
+          </div>
+        </section>
+
+      </div>
+
+    </main>
+
+    {% include 'templates/_footer.liquid' %}
+
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>
