@@ -1,0 +1,159 @@
+---
+title: "Causable - Privacy Policy"
+description: Privacy Policy Causable GmbH
+lang: en
+key: privacy
+---
+<!doctype html>
+<html lang="{{ page.lang }}">
+  {% include 'templates/_head.liquid' %}
+  <body class="bg-white font-sans">
+    {% include 'templates/_header.liquid' %}
+
+    <div class="h-20"></div>
+
+    <main class="min-h-screen">
+
+      <section class="container mx-auto px-4 max-w-3xl py-10">
+        <h1 class="text-4xl font-serif balanced">
+          Data Protection
+        </h1>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Privacy Policy
+        </h2>
+
+        <p class="mt-8 text-xl max-w-xl">
+          The protection of your personal data is very important to us at Causable GmbH. 
+          Therefore we treat them confidential and in accordance with legal data protection requirements. 
+          This privacy policy explains how Causable GmbH (hereafter: Causable) uses the personal data 
+          we collect from you when you use our services. Moreover, we inform you about your rights with 
+          regard to your data.
+        </p>
+
+        <p class="mt-8 text-xl max-w-xl">
+          Causable adheres to high standards of data protection when it comes to collecting and processing personal data. 
+          We do only collect, store and process your personal data in accordance with the Swiss Federal Act on Data Protection (DSG), 
+          the European General Data Protection Directive (GDPR) and the principles set forth below.
+        </p>
+
+        <p class="mt-8 text-xl max-w-xl">
+          This Privacy Notice explains what information Causable collects about its users and what we do with that information. 
+          This Privacy Notice applies to the information that we obtain through your use of our webpage via a device or when you otherwise 
+          interact with us to use our services. In this notice, when we talk about personal data, we mean any information that relates to an 
+          identifiable natural person. Please note that we may amend this Privacy Notice from time to time.
+        </p>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          What data do we process?
+        </h2>
+
+        <p class="mt-8 text-xl max-w-xl">
+          Causable processes the following data:
+          <br>_ Personal identification information or information that links you to a specific organization we work with (name, function, email address, postal address, if provided: phone number)
+          <br>_ Payment information
+          Please note that without this personal data we may not be in a position to provide you with our products and services.
+        </p>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          How do we collect your data?
+        </h2>
+
+        <p class="mt-8 text-xl max-w-xl">
+          You directly provide Causable with most of the data we collect. We collect and process data when you
+          <br>_ Register online or place an order for any of our products or services.
+          <br>_ Voluntarily complete a contact form, customer survey, or provide feedback on any of our message boards or via email.
+          <br>_ Use or view our Linkedin presence.
+        </p>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          How will we use your data?
+        </h2>
+
+        <p class="mt-8 text-xl max-w-xl">
+          Our company collects your data so that we can:
+          <br>_ Process your order / mandate and manage your account.
+          <br>_ Email you with offers on products and services you might be interested in.
+          <br>_ Meet our regulatory and legal obligations.
+        </p>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Where and how long do we store your data?
+        </h2>
+            
+        <p class="mt-8 text-xl max-w-xl">
+          Causable securely stores your data at our own premises within Switzerland / the EEA. 
+          We have appropriate technical and organisational measures in place to prevent unauthorised or unlawful access to the personal data you have provided us with.   
+          Our company stores your data for the mandatory duration to meet our legal requirements. 
+          If you are no longer our customer and have not used our services, we will delete your data after this period.
+        </p>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Marketing
+        </h2>
+            
+        <p class="mt-8 text-xl max-w-xl">
+          Causable would like to send you information about products, services and events of ours that we think you might be interested in. 
+          If you have agreed to receive marketing, you may always opt out at a later date. You have the right to stop Causable any time 
+          from contacting you for marketing purposes. If you no longer wish to be contacted for marketing purposes, 
+          <a class="underline" href="https://causable.ch/unsubscribe">please click here to unsubscribe</a>.
+        </p>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Your data protection rights
+        </h2>
+            
+        <p class="mt-8 text-xl max-w-xl">
+          You have the right to require from us whether we process any of your data. 
+          Likewise, you can require us to correct inaccurate personal data. 
+          We are required by law to process personal data correctly. 
+          Therefore, please notify us about any changes to your personal data through your usual 
+          communication channel, so that we can keep your data current.
+        </p> 
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Privacy policies of other websites
+        </h2>
+            
+        <p class="mt-8 text-xl max-w-xl">
+          Causable’s web presence contains links to other websites. 
+          Our privacy policy applies only to our website, so if you click on a link to another website, 
+          you should read their privacy policy.
+        </p> 
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Changes to our privacy policy
+        </h2>
+            
+        <p class="mt-8 text-xl max-w-xl">
+          Causable keeps its privacy policy under regular review and updates it when necessary. 
+          Any updates will be placed on this web page. This privacy policy was last updated on November 16, 2026.
+        </p> 
+
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          How to contact us
+        </h2>
+            
+        <p class="mt-8 text-xl max-w-xl">
+          For the purpose of this Privacy Notice the controller of your personal data is:
+          <br>
+          <br> Causable GmbH
+          <br> CHE-471.199.414  
+          <br> Tellstrasse 31 
+          <br> CH-8004 Zürich 
+          <br> info@causable.ch  
+          <br> www.causable.ch / www.causable.de 
+          <br>If you have any questions about Causable’s privacy policy, the data we hold on you, 
+          or you would like to exercise one of your data protection rights, 
+          please do not hesitate to contact us.  Email us under info@causable.ch.
+        </p> 
+  
+
+    </main>
+
+    {% include 'templates/_footer.liquid' %}
+
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>

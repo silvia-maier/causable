@@ -1,0 +1,158 @@
+---
+title: "Causable - Datenschutz"
+description: Datenschutzerklärung Causable GmbH
+lang: de
+key: privacy
+---
+<!doctype html>
+<html lang="{{ page.lang }}">
+  {% include 'templates/_head.liquid' %}
+  <body class="bg-white font-sans">
+    {% include 'templates/_header.liquid' %}
+
+    <div class="h-20"></div>
+
+    <main class="min-h-screen">
+
+      <section class="container mx-auto px-4 max-w-3xl py-10">
+        <h1 class="text-4xl font-serif balanced">
+          Datenschutz
+        </h1>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Datenschutzerklärung
+        </h2>
+
+        <p class="mt-8 text-xl max-w-xl">
+          Der Schutz Ihrer persönlichen Daten ist uns, der Causable GmbH, sehr wichtig. 
+          Deswegen behandeln wir sie vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften. 
+          In dieser Datenschutzerklärung informieren wir Sie über den Umgang mit ihren Daten, über Art, Verwendungszweck und Umfang
+          der von uns bearbeiteten Personendaten. Ferner klären wir Sie über Ihre Rechte auf. 
+          Diese Datenschutzerklärung gilt für die Benutzung der Causable-Webpräsenz wie auch für die Inanspruchnahme unserer Dienstleistungen.
+          Wir behalten wir uns vor, unsere Datenschutzerklärung von Zeit zu Zeit zu aktualisieren.
+        </p>
+
+        <p class="mt-8 text-xl max-w-xl">
+          Causable hält sich an einen hohen Standard des Datenschutzes bei der Sammlung und Verarbeitung von personenbezogenen Daten.
+          Wir sammeln, bewahren und verarbeiten personenbezogene Daten im Einklang mit dem Schweizer Datenschutzgesetz (DSG), der Europäsischen Datenschutzrichtlinie (GDPR)
+          und den weiter unten beschriebenen Prinzipien.
+        </p>
+
+        <p class="mt-8 text-xl max-w-xl">
+          Diese Datenschutzerklärung informiert Sie darüber, welche Informationen Causable über seine Nutzer sammelt und was wir
+          mit diesen Informationen tun. Wenn wir von personenbezogenen Daten sprechen, meinen wir damit alle Daten, die sich auf eine identifizierbare natürliche Person beziehen.
+        </p>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Welche Daten verarbeiten wir?
+        </h2>
+
+        <p class="mt-8 text-xl max-w-xl">
+          Causable verarbeitet die folgenden Daten:
+          <br>_ Informationen, die Sie als Person oder als zugehörig zu einer bestimmten Organisation identifizieren (Name, Funktion, Email-Adresse, Postanschrift, wenn geteilt: Telefonnummer)
+          <br>_ Zahlungsinformationen
+          Bitte beachten Sie, dass ohne diese personenbezogenen Daten unsere Produkte und Services nicht genutzt werden könnten.
+        </p>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Wie erhalten wir Ihre Daten?
+        </h2>
+
+        <p class="mt-8 text-xl max-w-xl">
+          Die meisten der Daten stellen Sie uns selbst zur Verfügung. Wir erheben und verarbeiten Daten wenn Sie
+          <br>_ sich online für unsere Services und Produkte registrieren oder diese auf anderem Weg beauftragen
+          <br>_ freiwillig ein Kontaktformular ausfüllen, eine Kundenumfrage beantworten oder auf einem anderen Weg (z.B. per Email) uns Ihr Feedback mitteilen.
+          <br>_ unsere Linkedin-Präsenz besuchen oder nutzen.
+        </p>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Wie nutzen wir diese Daten?
+        </h2>
+
+        <p class="mt-8 text-xl max-w-xl">
+          Unser Unternehmen verarbeitet Ihre Daten, damit wir:
+          <br>_ Ihre Aufträge erfüllen und Ihren Kunden-Account managen können
+          <br>_ Ihnen gelegentlich Emails zu Produkten und Services schicken können, wenn wir glauben, dass diese für Sie interessant sind
+          <br>_ Unseren regulatorischen und rechtlichen Pflicht nachkommen können.
+        </p>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Wo und wie lange bewahren wir Ihre Daten auf?
+        </h2>
+            
+        <p class="mt-8 text-xl max-w-xl">
+          Wir bewahren Ihre Daten sicher auf und verarbeiten diese auf Servern in der Schweiz und im Europäischen Wirtschaftsraum (EWR). 
+          Dabei treffen wir die notwendigen technischen und organisatorischen Massnahmen, um unerlaubten oder ungesetzlichen Zugriff 
+          auf Ihre Daten zu verhindern. Unser Unternehmen speichert Ihre Daten gemäss der jeweiligen gesetzlichen Aufbewahrungsfristen. 
+          Wenn Sie nicht länger Kunde bei uns sind und unsere Services nicht mehr genutzt haben, löschen wir Ihre Daten nach dieser Frist.
+        </p>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Marketing
+        </h2>
+            
+        <p class="mt-8 text-xl max-w-xl">
+          Causable möchte Ihnen von Zeit zu Zeit Informationen über Produkte, Services und Veranstaltungen schicken, von denen wir glauben,
+          dass Sie sie interessieren könnten. Wenn Sie zugestimmt haben, Marketing-Nachrichten zu erhalten, können Sie diese
+          Zustimmung später jederzeit widerrufen. Sie haben das Recht, Causable jederzeit mitzuteilen, wenn sie keine Werbung
+          mehr erhalten möchten. <a class="underline" href="https://causable.ch/unsubscribe">Klicken Sie dazu hier, um sich abzumelden</a>.
+        </p>
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Ihre Rechte zum Datenschutz
+        </h2>
+            
+        <p class="mt-8 text-xl max-w-xl">
+          Sie haben das Recht, Auskunft darüber zu verlangen, ob Daten über Sie bearbeitet werden. 
+          Ebenso können Sie verlangen, dass unrichtige Daten berichtigt werden. Wir sind verpflichtet, 
+          die Personendaten sachlich richtig zu bearbeiten. Bitte teilen Sie uns allfällige Änderungen 
+          Ihrer persönlichen Daten auf dem von Ihnen üblicherweise verwendeten Kommunikationsweg mit, 
+          damit wir diese auf dem aktuellen Stand halten können.
+        </p> 
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Datenschutzerklärungen anderer Webseiten
+        </h2>
+            
+        <p class="mt-8 text-xl max-w-xl">
+          Auf der Internetpräsenz von Causable finden Sie Links zu anderen Webseiten. Unsere Datenschutzerklärung
+          gilt nur für unsere eigene Web-Präsenz. Wenn Sie auf Links klicken und andere Webseiten besuchen, informieren Sie sich
+          bitte dort über deren Datenschutzerklärungen.
+        </p> 
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          Veränderungen unserer Datenschutzerklärung
+        </h2>
+            
+        <p class="mt-8 text-xl max-w-xl">
+          Wir aktualisieren unsere Datenschutzerklärung wenn nötig. Die aktuelle Version finden Sie jeweils
+          auf dieser Webseite. Diese Datenschutzerklärung wurde zuletzt am 16. November 2026 aktualisiert.
+        </p> 
+
+
+        <h2 class="mt-20 text-3xl font-serif balanced">
+          So erreichen Sie uns
+        </h2>
+            
+        <p class="mt-8 text-xl max-w-xl">
+          Die Causable GmbH ist verantwortlich für die Bearbeitung Ihrer Personendaten. 
+          Ihre Fragen können Sie wie folgt an uns richten:
+          <br>
+          <br> Causable GmbH
+          <br> CHE-471.199.414  
+          <br> Tellstrasse 31 
+          <br> CH-8004 Zürich 
+          <br> info@causable.ch  
+          <br> www.causable.ch / www.causable.de 
+          <br> Wenn Sie Fragen zu dieser Datenschutzerklärung haben, zu den Daten, die wir über Sie speichern, oder wenn Sie Ihre Rechte zum Datenschutz ausüben möchten, 
+          kontaktieren Sie uns bitte per Email unter info@causable.ch.
+        </p> 
+  
+
+    </main>
+
+    {% include 'templates/_footer.liquid' %}
+
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>

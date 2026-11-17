@@ -1,25 +1,38 @@
+{% assign isDe = page.lang == 'de' %}
+{% if isDe %}{% assign home = '/' %}{% else %}{% assign home = '/en/' %}{% endif %}
 <header class="header-backdrop bg-opacity-80 bg-white fixed w-full h-20 z-10 transition-all duration-300">
   <div id="mobile-menu" class="hidden fixed w-full bg-clay1">
     <nav class="container mx-auto px-4 pt-24 pb-12">
       <ul class="flex flex-col text-2xl space-y-4">
-        <li><a href="/index.html" class="text-black">home</a></li>
+        <li><a href="{{ home }}" class="text-black">{% if isDe %}Start{% else %}home{% endif %}</a></li>
         <!-- Other nav items are copied by js -->
       </ul>
     </nav>
   </div>
   <div class="container mx-auto px-4 h-full flex items-center justify-between">
     <div class="w-[140px] mt-[3px]">
-      <a href="/">
-        <img src="assets/logo/causable_flat_black.svg" alt="Causable" class="header-logo w-full">
+      <a href="{{ home }}">
+        <img src="/assets/logo/causable_flat_black.svg" alt="Causable" class="header-logo w-full">
       </a>
     </div>
     <nav id="menu" class="hidden lg:block">
       <ul class="flex space-x-6 text-lg font-sans">
-        <li><a href="/strategy.html" class="text-black">strategy</a></li>
-        <li><a href="/sparring.html" class="text-black">sparring</a></li>
-        <li><a href="/training.html" class="text-black">training</a></li>
-        <li><a href="/interim.html" class="text-black">interim</a></li>
-        <li><a href="/about.html" class="text-black">about</a></li>
+        {% if isDe %}
+        <li><a href="/strategie.html" class="text-black">Strategie</a></li>
+        <li><a href="/sparring.html" class="text-black">Sparring</a></li>
+        <li><a href="/training.html" class="text-black">Training</a></li>
+        <li><a href="/interim.html" class="text-black">Interim</a></li>
+        <li><a href="/ueber-uns.html" class="text-black">Über uns</a></li>
+        {% else %}
+        <li><a href="/en/strategy.html" class="text-black">strategy</a></li>
+        <li><a href="/en/sparring.html" class="text-black">sparring</a></li>
+        <li><a href="/en/training.html" class="text-black">training</a></li>
+        <li><a href="/en/interim.html" class="text-black">interim</a></li>
+        <li><a href="/en/about.html" class="text-black">about</a></li>
+        {% endif %}
+        {% for alt in alternates %}{% unless alt.lang == page.lang %}
+        <li><a href="{{ alt.url }}" class="text-black uppercase font-semibold tracking-wide">{{ alt.lang }}</a></li>
+        {% endunless %}{% endfor %}
       </ul>
     </nav>
     <div class="hidden">
